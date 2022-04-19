@@ -2,4 +2,5 @@
 
 <hr>
 
-<img src="" alt="Preview">
+<img src="./images/google-clone.png" alt="Preview">
+
