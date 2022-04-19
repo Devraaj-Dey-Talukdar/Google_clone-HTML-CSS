@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 body{
     background-color: #282727;
     margin: 0;
@@ -8,7 +10,7 @@ h1{
     background-color: #383636;
     color : rgb(231, 220, 220);
     font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
     text-align: center;
     font-weight: bold;
     opacity : 10%;
