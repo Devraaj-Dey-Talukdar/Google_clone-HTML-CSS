@@ -1,6 +1,7 @@
 body{
     background-color: #282727;
     margin: 0;
+    border: 0;
 }
 h1{
     border-radius: 10px;
@@ -11,6 +12,15 @@ h1{
     text-align: center;
     font-weight: bold;
     opacity : 10%;
+}
+
+div{
+    background-color: #282727;
+    display:flex;
+    align-items:center;
+    margin-left: 25%;
+    justify-content:space-between;
+    white-space: nowrap;
 }
 
 h1:hover{
@@ -47,26 +57,24 @@ h1:hover{
 }
 
 .search-button{
-    display: inline-block;
-    text-align: center;
-    font-family: 'Roboto',monospace;
-    background-color: #4f4b4b;
-    margin-top : 20px;
-    margin-left: 220px;
-    padding: 5px;
-    border-radius: 5px;
+    
+        text-align: center;
+        font-family: "Roboto", monospace;
+        background-color: #4f4b4b;
+        padding: 5px;
+        border-radius: 5px;
+        text-transform: uppercase;
+    
 }
 
 .Im-feeling-lucky{
-    position: relative;
-    display: inline-block;
     text-align: center;
-    font-family: 'Roboto', monospace;
+    font-family: "Roboto",
+    monospace;
     background-color: #4f4b4b;
-    margin-left: 400px;
-    top : -29px;
-    padding: 5px;
+    
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 .mate-in-two {
@@ -88,6 +96,7 @@ h1:hover{
     opacity: 10%;
     border-radius: 50px;
     box-shadow: 15px 5px rgb(5, 47, 77);
+    cursor: help;
 }
 
 ul li a{
@@ -99,6 +108,8 @@ ul li a:hover{
     font-family: 'Roboto', monospace;
     text-decoration: none;
     font-style: none;
+    font-weight: bold;
+    cursor: text;
     color: rgb(100, 252, 242);
 }
 ul:hover{
@@ -109,4 +120,12 @@ ul{
     background-color: #433f3f;
     border-radius: 13px 30px 80px 17px;
     margin : 20px;
+}
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+
+    background-color: #282727;;
 }
