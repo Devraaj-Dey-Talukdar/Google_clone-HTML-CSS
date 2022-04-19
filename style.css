@@ -1,0 +1,109 @@
+body{
+    background-color: #282727;
+    margin: 0;
+}
+h1{
+    border-radius: 10px;
+    background-color: #383636;
+    color : rgb(231, 220, 220);
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    opacity : 10%;
+}
+
+h1:hover{
+    opacity : 100%;
+    font-family: 'Roboto', monospace;
+}
+.google{
+    background-color: #3f3c3c;
+    padding: 10px;
+    border-radius: 50px 143px 143px 71px;
+    box-shadow: 10px 9px 61px -14px rgba(218, 208, 208, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.relative{
+    position: relative;
+
+}
+
+.search-bar{
+    margin-top: 8%;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(55, 53, 53);
+    box-shadow: 5px 5px 10px rgb(55, 53, 53);
+    border-radius: 20px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.search-button{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto',monospace;
+    background-color: #4f4b4b;
+    margin-top : 20px;
+    margin-left: 220px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Im-feeling-lucky{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto', monospace;
+    background-color: #4f4b4b;
+    margin-left: 400px;
+    top : -29px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mate-in-two {
+    margin-left: 220px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 15px;
+}
+.mate-in-two:hover{
+    border-radius: 111px 30px 111px 30px;
+    box-shadow: -9px 10px 5px -7px rgba(232, 223, 232, 1);
+    opacity: 20%;
+}
+
+.google:hover{
+    opacity: 10%;
+    border-radius: 50px;
+    box-shadow: 15px 5px rgb(5, 47, 77);
+}
+
+ul li a{
+    opacity: 10%;
+}
+
+ul li a:hover{
+    opacity: 200%;
+    font-family: 'Roboto', monospace;
+    text-decoration: none;
+    font-style: none;
+    color: rgb(100, 252, 242);
+}
+ul:hover{
+    background-color: #312d2d;
+    border-radius: 13px 300px 120px 17px;
+}
+ul{
+    background-color: #433f3f;
+    border-radius: 13px 30px 80px 17px;
+    margin : 20px;
+}
