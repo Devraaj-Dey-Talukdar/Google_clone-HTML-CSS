@@ -70,10 +70,13 @@ h1:hover{
 }
 
 .mate-in-two {
-    margin-left: 150px;
-    margin-top: 20px;
+   margin-top: auto;
     border-radius: 20px;
     border: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .mate-in-two:hover{
     border-radius: 111px 30px 111px 30px;
